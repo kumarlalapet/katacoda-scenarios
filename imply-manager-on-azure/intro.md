@@ -6,7 +6,7 @@ The scenario installs the following tools
 
 - Azure cli 
 - kubectl cli
-- Helm - 1
+- Helm
 
 #### NOTE - Please remember to delete the AKS cluster.
 
