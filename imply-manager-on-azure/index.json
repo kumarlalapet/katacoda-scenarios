@@ -8,18 +8,6 @@
                 "title": "Install Helm",
                 "code": "set-env.sh",
                 "text": "step1.md"
-            },
-            {
-                "title": "Search For Chart",
-                "text": "step2.md"
-            },
-            {
-                "title": "Deploy Redis",
-                "text": "step3.md"
-            },
-            {
-                "title": "See Results",
-                "text": "step4.md"
             }
         ],
         "intro": {
