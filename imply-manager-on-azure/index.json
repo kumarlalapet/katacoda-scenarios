@@ -1,7 +1,7 @@
 {
     "pathwayTitle": "Kubernetes",
     "title": "Imply Manager on Azure AKS",
-    "description": "Deploy Imply Manager on Azure Kubernetes Service (AKS) - 3",
+    "description": "Deploy Imply Manager on Azure Kubernetes Service (AKS) - 5",
     "details": {
         "steps": [
             {
@@ -13,7 +13,13 @@
                 "title": "Azure Login",
                 "code": "set-env.sh",
                 "text": "step2.md"
+            },
+            {
+                "title": "Create Azure AKS cluster",
+                "code": "set-env.sh",
+                "text": "step3.md"
             }
+
         ],
         "intro": {
             "text": "intro.md",

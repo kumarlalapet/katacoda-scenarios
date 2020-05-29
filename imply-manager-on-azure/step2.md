@@ -1,6 +1,8 @@
 Run the Azure CLI with the az command. To sign in, use the az login command.
 
-1. Run the login command az login{{execute}}
+1. Run the login command 
+
+    `az login`{{execute}}
 
    If the CLI can open your default browser, it will do so and load a sign-in page.
 
