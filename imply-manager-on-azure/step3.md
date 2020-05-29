@@ -21,3 +21,13 @@ AZ resource group and AKS cluster creation
     Change the cluster name as needed.
     
     NOTE - AKS cluster creation takes several minutes. Wait for the command prompt.
+    
+3. Connect kubectl to AKS
+
+    Make sure to use the correct resource group name and cluster name in the command below.
+
+    `az aks get-credentials --resource-group implymanager-rg --name implymanager-aks-cluster`{{execute}}
+    
+    Verify using the kubectl command below
+    
+    `kubectl get nodes`{{execute}}
