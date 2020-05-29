@@ -1,11 +1,21 @@
-Helm is a single binary that manages deploying Charts to Kubernetes. A chart is a packaged unit of kubernetes software. It can be downloaded from https://github.com/kubernetes/helm/releases
+##### Verify Helm version
 
-`curl -LO https://storage.googleapis.com/kubernetes-helm/helm-v2.3.0-linux-amd64.tar.gz
-tar -xvf helm-v2.3.0-linux-amd64.tar.gz
-mv linux-amd64/helm /usr/local/bin/`{{execute}}
+Helm is a single binary that manages deploying Charts to Kubernetes. A chart is a packaged unit of kubernetes software.
 
+`helm version`{{execute}}
 
-Once installed, initialise update the local cache to sync the latest available packages with the environment.
+Make sure the above command returns version 3.2.1
 
-`helm init
-helm repo update`{{execute}}
+##### Verify kubectl command line tool
+
+Kubectl is a command line tool for controlling Kubernetes clusters. 
+
+`kubectl version`{{execute}}
+
+##### Verify Azure command line tool
+
+The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources.
+
+We will use Azure cli tool to create AKS clusters. 
+
+`az version`{{execute}}
