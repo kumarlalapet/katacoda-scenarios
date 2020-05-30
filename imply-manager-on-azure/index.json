@@ -1,7 +1,7 @@
 {
     "pathwayTitle": "Kubernetes",
     "title": "Imply Manager on Azure AKS",
-    "description": "Deploy Imply Manager on Azure Kubernetes Service (AKS) - 8",
+    "description": "Deploy Imply Manager on Azure Kubernetes Service (AKS) - 9",
     "details": {
         "steps": [
             {
@@ -48,7 +48,7 @@
     "environment": {
         "uilayout": "terminal",
         "showdashboard": true,
-        "dashboards": [{"name": "Imply Manager UI", "port": 9097}, {"name": "Druid Console", "port": 8888}, {"name": "Imply Pivot UI", "port": 9095}],
+        "dashboards": [{"name": "Imply Manager UI", "port": 9097}, {"name": "Druid Console", "href": "https://[[HOST_SUBDOMAIN]]-9097-[[KATACODA_HOST]].environments.katacoda.com"}],
         "uimessage1": "\u001b[32mYour Interactive Hands On Imply Lab Terminal\u001b[m\r\n"
     },
     "backend": {
