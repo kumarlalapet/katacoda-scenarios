@@ -46,6 +46,7 @@
         }
     },
     "environment": {
+        "uilayout": "terminal",
         "showdashboard": true,
         "dashboards": [{"name": "Imply Manager UI", "port": 9097}, {"name": "Druid Console", "port": 8888}, {"name": "Imply Pivot UI", "port": 9095}],
         "uimessage1": "\u001b[32mYour Interactive Hands On Imply Lab Terminal\u001b[m\r\n"
