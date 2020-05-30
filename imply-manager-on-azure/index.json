@@ -1,7 +1,7 @@
 {
     "pathwayTitle": "Kubernetes",
     "title": "Imply Manager on Azure AKS",
-    "description": "Deploy Imply Manager on Azure Kubernetes Service (AKS) - 7",
+    "description": "Deploy Imply Manager on Azure Kubernetes Service (AKS) - 8",
     "details": {
         "steps": [
             {
@@ -28,8 +28,12 @@
                 "title": "Install Imply Manager chart",
                 "code": "set-env.sh",
                 "text": "step5.md"
+            },
+            {
+                "title": "Accessing Imply Manager UI",
+                "code": "set-env.sh",
+                "text": "step6.md"
             }
-
         ],
         "intro": {
             "text": "intro.md",
@@ -42,10 +46,12 @@
         }
     },
     "environment": {
-        "uilayout": "terminal",
-        "uimessage1": "\u001b[32mYour Interactive Hands On Lab Terminal\u001b[m\r\n"
+        "showdashboard": true,
+        "dashboards": [{"name": "Imply Manager UI", "port": 9097}, {"name": "Druid Console", "port": 8888}, {"name": "Imply Pivot UI", "port": 9095}],
+        "uimessage1": "\u001b[32mYour Interactive Hands On Imply Lab Terminal\u001b[m\r\n"
     },
     "backend": {
+        "port": 8080,
         "imageid": "ubuntu"
     }
 }

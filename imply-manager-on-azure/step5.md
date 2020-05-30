@@ -17,6 +17,8 @@ Install Imply Manager chart
     
     The chart will take a few moments to deploy, after which you will be presented with information on how to access your cluster.
     
+    NOTE - this will take 5 mins in Azure
+    
 2. Verify pods
 
     Once the chart is deployed. Issue the below command to verify the pods.
