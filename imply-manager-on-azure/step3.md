@@ -1,6 +1,6 @@
 AZ resource group and AKS cluster creation
 
-##### Step 1 - AZ resource group creation 
+#### Step 1 - AZ resource group creation 
 
 Resource groups are a way to group all your resources in Azure. 
 
@@ -10,7 +10,7 @@ Create a resource group for this cluster. If you already have a resource group t
 
 Change the resource group name and location as needed
 
-##### Step 2 - Create AKS cluster
+#### Step 2 - Create AKS cluster
 
 Make sure to use the correct resource group name in the command below
 
@@ -22,7 +22,7 @@ Change the cluster name as needed.
 
 NOTE - AKS cluster creation takes several minutes. Wait for the command prompt.
     
-##### Step 3 - Connect kubectl to AKS
+#### Step 3 - Connect kubectl to AKS
 
 Make sure to use the correct resource group name and cluster name in the command below.
 
