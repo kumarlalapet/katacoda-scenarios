@@ -8,6 +8,8 @@ Prepare for Imply Manager install
     
     `vi IMPLY_MANAGER_LICENSE_KEY`{{execute}}
     
+    Save the file and exit vi.
+    
     Create a K8s secret named `imply-secrets` by running the below command.
     
     `kubectl create secret generic imply-secrets --from-file=IMPLY_MANAGER_LICENSE_KEY`{{execute}}

@@ -13,7 +13,7 @@ Install Imply Manager chart
       - 1 query node
       - 1 data node
     
-    `helm install imply imply/imply`{{execute}}
+    `helm install imply imply/imply --set manager.service.enabled=true,manager.service.type=LoadBalancer,manager.service.port=9097,query.service.type=LoadBalancer`{{execute}}
     
     The chart will take a few moments to deploy, after which you will be presented with information on how to access your cluster.
     

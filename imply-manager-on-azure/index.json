@@ -1,7 +1,7 @@
 {
     "pathwayTitle": "Kubernetes",
     "title": "Imply Manager on Azure AKS",
-    "description": "Deploy Imply Manager on Azure Kubernetes Service (AKS) - 10",
+    "description": "Deploy Imply Manager on Azure Kubernetes Service (AKS) - 12",
     "details": {
         "steps": [
             {
@@ -33,6 +33,11 @@
                 "title": "Accessing Imply Manager UI",
                 "code": "set-env.sh",
                 "text": "step6.md"
+            },
+            {
+                "title": "Clean Up",
+                "code": "set-env.sh",
+                "text": "step7.md"
             }
         ],
         "intro": {
@@ -47,8 +52,6 @@
     },
     "environment": {
         "uilayout": "terminal-iframe",
-        "showdashboard": true,
-        "dashboards": [{"name": "Imply Manager UI", "port": 9097}, {"name": "Druid Console", "href": "https://[[HOST_SUBDOMAIN]]-9097-[[KATACODA_HOST]].environments.katacoda.com"}],
         "uimessage1": "\u001b[32mYour Interactive Hands On Imply Lab Terminal\u001b[m\r\n"
     },
     "backend": {

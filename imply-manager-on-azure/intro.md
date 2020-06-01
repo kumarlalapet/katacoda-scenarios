@@ -8,6 +8,8 @@ The scenario installs the following tools
 - kubectl cli
 - Helm
 
-#### NOTE - Please remember to delete the AKS cluster.
+#### NOTE 
+- Azure access
+- Please remember to delete the AKS cluster (follow the clean up step).
 
 More details can be found at https://docs.imply.io/on-prem/deploy/quickstart
