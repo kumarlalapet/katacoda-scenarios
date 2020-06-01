@@ -2,6 +2,8 @@
     "pathwayTitle": "Kubernetes",
     "title": "Imply Manager on Azure AKS",
     "description": "Deploy Imply Manager on Azure Kubernetes Service (AKS) - 13",
+    "difficulty": "beginner",
+    "time": "30 minutes",
     "details": {
         "steps": [
             {
