@@ -9,7 +9,7 @@ The scenario installs the following tools
 - Helm
 
 #### NOTE 
-- Azure access
+- Azure access is required
 - Please remember to delete the AKS cluster (follow the clean up step).
 
 More details can be found at https://docs.imply.io/on-prem/deploy/quickstart
